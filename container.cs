@@ -25,7 +25,9 @@ namespace PT_example
             obj.Remove("RKU");
             //Traversing a collection element by element
             foreach (object str in obj)//Object
-            Console.WriteLine(str + " ");
+            {
+                Console.WriteLine(str + " ");
+            }
             Console.ReadKey();
         }
     }
