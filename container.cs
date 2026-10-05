@@ -9,7 +9,7 @@ namespace PT_example
 {
     class ContainerClass
     {
-        public static void Main(string[] args)
+        public static void _CMain(string[] args)
         {
             //Creating an object of collection
             ArrayList obj = new ArrayList();
@@ -25,9 +25,7 @@ namespace PT_example
             obj.Remove("RKU");
             //Traversing a collection element by element
             foreach (object str in obj)//Object
-            {
-                Console.WriteLine(str + " ");
-            }
+            Console.WriteLine(str + " ");
             Console.ReadKey();
         }
     }

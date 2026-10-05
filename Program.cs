@@ -10,8 +10,13 @@ namespace PT_example
     {
         public static void Main(string[] args)
         {
-            Demo._DemoMain(args);
+            //Demo._DemoMain(args);
             //Class2._1exMain(args);
+            //ArrayListDemo._AMain();
+            //DelegateDemo_C._DMain(args);
+            //ContainerClass._CMain(args);
+            ArrayListDemo._7Main();
+
         }
 
     }

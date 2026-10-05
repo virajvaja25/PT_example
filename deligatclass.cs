@@ -26,7 +26,7 @@ namespace PT_example
         {
             Console.WriteLine(x / y);
         }
-        public static void Main(string[] args)
+        public static void _DMain(string[] args)
         {
             MyDelegate obj = new MyDelegate(Add); //Instatiation
             obj += new MyDelegate(Sub);

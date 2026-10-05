@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="1ex.cs" />
     <Compile Include="2ex.cs" />
+    <Compile Include="ArrayList.cs" />
     <Compile Include="container.cs" />
     <Compile Include="deligatclass.cs" />
     <Compile Include="Program.cs" />
